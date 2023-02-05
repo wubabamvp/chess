@@ -8,7 +8,6 @@ private:
 
 public:
 	void init(Chess*);
-
 	void go(chess_kind_t);
 };
 

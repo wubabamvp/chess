@@ -1,5 +1,4 @@
 #pragma once 
-
 #include"Chess.h"
 #include"Player.h"
 #include"AI.h"
@@ -11,10 +10,8 @@ private:
 	AI* ai;
 
 public:
-	void init(Chess*,Player*,AI*);
-
+	void init(Chess*, Player*, AI*);
 	void play();
-
 	void delay(int milliseconds);
 };
 
