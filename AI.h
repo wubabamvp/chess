@@ -1,7 +1,7 @@
 #pragma once
 #include"Chess.h"
 #include<vector>
-class AI
+class AI 
 {
 private:
 	Chess* chess;

@@ -11,3 +11,4 @@ public:
 	void go(chess_kind_t);
 };
 
+ 

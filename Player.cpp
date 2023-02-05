@@ -13,7 +13,7 @@ void Player::go(chess_kind_t kind) {
 				break;
 			}
 		}
-	}
+	} 
 	chess->ChessDown(&pos, kind);
 }
 

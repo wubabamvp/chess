@@ -20,7 +20,7 @@ struct Grid {
 };
 class Chess
 {
-private:
+private: 
 	float chessSize;
 	float margin;
 	int boardSize;

@@ -1,7 +1,7 @@
 #include "Chess.h"
 #include <mmsystem.h>
 #pragma comment(lib, "winmm.lib")
-Chess::Chess() {
+Chess::Chess() { 
 	this->chessSize = 28;
 	this->margin = 22;
 	this->boardSize = 496 / 14;

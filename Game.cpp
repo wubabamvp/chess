@@ -8,7 +8,7 @@ void Game::init(Chess* chess, Player* player, AI* ai) {
 	ai->init(chess);
 	player->init(chess);
 }
-
+ 
 void Game::play() {
 	chess->init();
 	while (1) {

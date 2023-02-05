@@ -2,7 +2,7 @@
 void AI::init(Chess* chess) {
     this->chess = chess;
     this->score.resize(8, 0);
-}
+} 
 void AI::go(chess_kind_t kind) {
     this->kind = kind;
     chess_kind_t k;
